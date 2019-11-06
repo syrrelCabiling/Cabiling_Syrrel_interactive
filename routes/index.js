@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
     // should really get the user data here and then fetch it thru, but let's try this asynchronously
     console.log('at the main route');
 
-    let query = "SELECT ID, Image, Classification, Volcano, Tephra, HowOften, DeathToll, OtherDamages FROM tbl_veiData"; // columns from the db
+    let query = "SELECT ID, Image, NumberIndex, Classification, Volcano, Tephra, HowOften, DeathToll, OtherDamages FROM tbl_veiData"; // columns from the db
 
     sql.query(query, (err, result) => {
         if (err) { throw err; console.log(err); }
