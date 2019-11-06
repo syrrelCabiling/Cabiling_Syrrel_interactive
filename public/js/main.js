@@ -9,10 +9,10 @@ const myVEI = (() => {
         let veiContainer = `
             <p>${vIndex.Image}</p>
             <h5>Classification:</h5><p>${vIndex.Classification}</p>
-           <h5>Volcano:</h5> <p>${vIndex.Volcano}</p>
-           <h5>Tephra:</h5> <p>${vIndex.Tephra}</p>
-           <h5>How Often:</h5> <p>${vIndex.HowOften}</p>
-           <h5>Death Toll:</h5> <p>${vIndex.OtherDamages}</p>
+           <h5>Volcano:</h5><p>${vIndex.Volcano}</p>
+           <h5>Tephra:</h5><p>${vIndex.Tephra}</p>
+           <h5>How Often:</h5><p>${vIndex.HowOften}</p>
+           <h5>Death Toll:</h5><p>${vIndex.OtherDamages}</p>
         `;
 
         console.log(veiContainer);
