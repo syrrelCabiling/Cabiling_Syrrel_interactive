@@ -4,40 +4,48 @@ const myVEI = (() => {
     lightbox = document.querySelector('.lightbox'); //this is the scale
 
      function veiIndex(vIndex) { // vIndex is the database result
-        let targetDiv = document.querySelector('.lightbox');
+        let targetDiv = document.querySelector('.lightbox'),
+        targetImg = lightbox.querySelector('img');
 
         let veiContainer = `
-            <p>${vIndex.Image}</p>
+            ${vIndex.Image}
             <h5>Classification:</h5><p>${vIndex.Classification}</p>
            <h5>Volcano:</h5><p>${vIndex.Volcano}</p>
            <h5>Tephra:</h5><p>${vIndex.Tephra}</p>
            <h5>How Often:</h5><p>${vIndex.HowOften}</p>
            <h5>Death Toll:</h5><p>${vIndex.OtherDamages}</p>
         `;
-
+        
         console.log(veiContainer);
 
         targetDiv.innerHTML = veiContainer;
+        targetImg.src = vIndex.imgsrc;
+   
         
-        let url = `/${this.getAttribute('href')}`; // /1
-            
-        lightbox.classList.add('show-lb');
-
-        fetch(url) // go get data
-                .then(res => res.json()) // parse the json into a plain object
-                .then(data => {
-                    console.log("my database result is:", data)
+    }
+    function volcanoData(event) {
+        event.preventDefault(); //kill default tag in behaviour (dont navigate anywhere)
+       // debugger;
+       let imgSrc = this.getAttribute('src');
+       let url = `/${this.getAttribute('href')}`; // /1
 
 
-                    veiIndex(data[0]);
-                })
-                .catch((err) => {
-                    console.log(err)
-                })
+       fetch(url) // go get data
+       .then(res => res.json()) // parse the json into a plain object
+       .then(data => {
+           console.log("my database result is:", data)
+
+           data[0].imgsrc = imgSrc;
+
+           veiIndex(data[0]);
+       })
+       .catch((err) => {
+           console.log(err)
+       })
+
+       
     }
 
-
-
-    indexButtons.forEach(button => button.addEventListener('click', veiIndex));
+    indexButtons.forEach(button => button.addEventListener('click', volcanoData));
 
 })();

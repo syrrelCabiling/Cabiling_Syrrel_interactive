@@ -139,7 +139,19 @@ svg {
     width: 50%;
 }
 
-
+@media (min-width: 320px){
+    button {
+        width: 16px;
+        background-color: #3f2508;
+        text-align: center;
+        align-content: center;
+        line-height: 10px;
+        
+        font-size: 8px;
+        font-weight:bold;
+        padding:8px 14px;  
+    }
+}
 
 @media (min-width: 768px) { 
 
@@ -185,7 +197,7 @@ svg {
 
 
  @media (min-width: 992px) { 
-     iframe {
-         width: 400px;
+     button {
+        display:inline;
      }
   }
