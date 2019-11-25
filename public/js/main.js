@@ -8,7 +8,7 @@ const myVEI = (() => {
         targetImg = lightbox.querySelector('img');
 
         let veiContainer = `
-            ${vIndex.Image}
+            <img src="${vIndex.Image}">
             <h5>Classification:</h5><p>${vIndex.Classification}</p>
            <h5>Volcano:</h5><p>${vIndex.Volcano}</p>
            <h5>Tephra:</h5><p>${vIndex.Tephra}</p>
