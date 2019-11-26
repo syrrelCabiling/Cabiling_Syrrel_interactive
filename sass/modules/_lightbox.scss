@@ -1,0 +1,23 @@
+.lightbox {
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    text-align: center !important;
+}
+
+.lightbox img {
+    
+    width: 50%;
+    margin-top: -50px;
+    
+}
+
+.lightbox h5, p{
+    text-align: left;
+}
+
+.lightbox span{
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 20px;
+}

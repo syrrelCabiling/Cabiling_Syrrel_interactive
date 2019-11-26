@@ -1,0 +1,49 @@
+
+.user-panel {
+    display: inline-block;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    margin-right: 35px;
+}
+
+.index-link {
+    position: absolute;
+    width: 10%;
+}
+
+.index-link h4 {
+    font-size: 12px;
+}
+
+
+button {
+    align-items: center;
+    background-color: #3f2508;
+    color: #9b1b1b;
+    box-shadow:inset 0px 34px 0px -15px #1d1103;
+    border:1px solid #241d13;
+    line-height: 15px;
+	cursor:pointer;
+	font-family:'Big Shoulders Text';
+	font-weight:bold;
+    padding:8px 14px;
+	text-decoration:none;
+    text-shadow:0px -1px 0px #7a2a1d;
+
+}
+
+button:hover {
+    border:1px solid #ffffff;
+}
+
+button:active {
+    border:2px solid #ffffff;
+}
+
+button:focus {
+    border:2px solid #ffffff;
+
+}
+

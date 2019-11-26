@@ -19,7 +19,7 @@ const myVEI = (() => {
         console.log(veiContainer);
 
         targetDiv.innerHTML = veiContainer;
-        targetImg.src = vIndex.imgsrc;
+        targetImg.src = vIndex.Image;
    
         
     }
