@@ -2,22 +2,57 @@
 
 @media (min-width: 320px){
     button {
-        width: 16px;
+        width: 9%;
         background-color: #3f2508;
         text-align: center;
         align-content: center;
         line-height: 10px;
-        
-        font-size: 8px;
+        font-size: 10px;
         font-weight:bold;
-        padding:8px 14px;  
     }
+    button:active {
+        width: 10%;
+        border:1px solid #ffffff;
+        margin-right: 20px;
+
+    }
+    button:focus{
+        width: 10%;
+    }
+    .user-panel {
+        display: inline-block;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+        align-content: center;
+        margin-right: 30px;
+        margin-bottom: 50px;
+
+    }
+
+    .index-link {
+        position: absolute;
+        width: 10%;
+    }
+    .lightbox img{
+        width: 70%;
+        margin-top: -85px;
+    }
+
+}
+
+@media (min-width: 375px) {
+    .veiContainer {
+        text-align: center !important;
+        align-items: center;
+    }
+
 }
 
 @media (min-width: 768px) { 
 
     h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
     h2 {
         font-size: 30px;
@@ -25,8 +60,8 @@
         transform: translate(25%, 290px) rotate(270deg) ;
     }
     p {
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-align: left;
     }
     .scale {
         margin-right: 20px;
@@ -38,19 +73,73 @@
         margin-top: 15px;
         font-size: 20px;
     }
-
-    .info-wrapper h5 {
-        font-size: 30px;
+    hr { 
+        width: 60vh;
+        display: block;
+        margin-before: 0.5em;
+        margin-after: 0.5em;
+        margin-start: auto;
+        margin-end: auto;
+        margin-top: 0;
+        overflow: hidden;
+        border-width: 2px;
+        background-color: #9b1b1b;
+        margin-bottom: 8px;
+        margin-left: -15px;
     }
-
-    .info-wrapper h6 {
-        font-family: 'Source Sans Pro';
-        font-size: 20px;
-
+    .veiContainer {
+        text-align: center !important;
+        align-items: center;
     }
-    .sources img {
+    button {
+        width: 30%;
+        background-color: #3f2508;
         text-align: center;
-        
+        line-height: 10px;
+        font-size: 10px;
+        font-weight:bold;
+
+    }
+    button:active {
+        border:1px solid #ffffff;
+    
+
+    }
+    button:focus{
+    
+        margin-right: 100px;
+    }
+    .user-panel {
+        display: inline-block;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-content: center;
+        margin-right: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        align-content: center;
+
+    }
+
+    .index-link {
+        position: absolute;
+        text-align: center;
+
+    }
+    .lightbox {
+        text-align: center;
+    }
+    .lightbox img {
+        margin-top: -150px;
+    }
+    .lightbox h5, p{
+        text-align: left;
+    }
+    
+    .lightbox span{
+        margin: 0 auto;
+        margin-left: 20px;
     }
 
     
@@ -58,7 +147,50 @@
 
 
  @media (min-width: 992px) { 
-     button {
-        display:inline;
+    button {
+        width: 15%;
+        background-color: #3f2508;
+        text-align: center;
+        align-content: center;
+        line-height: 10px;
+        font-size: 10px;
+        font-weight:bold;
+        margin-right: 0px;
+    }
+    button:active {
+        width: 9%;
+        border:1px solid #ffffff;
+        margin-right: 20px;
+
+    }
+    button:focus{
+        width: 9%;
+    }
+    .user-panel {
+        display: inline-block;
+        justify-content: space-evenly;
+        flex-direction: row;
+        text-align: center;
+        align-content: center;
+        margin: 100px;
+        margin-right: 0px;
+    }
+
+    .index-link {
+        position: absolute;
+        width: 9%;
+    }
+     .lightbox img {
+         width: 40%;
+         margin-top: -100px;
      }
+     .lightbox span{
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+    .lightbox h5, p{
+        text-align: left;
+    }
+    
   }

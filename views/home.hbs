@@ -1,16 +1,7 @@
 <div class="container">
     <div class="row">
         <section id="section1" class="panel">
-
-    <!-- this will be filled in on the client side when we render our AJAX data -->
-            <div class="lightbox container">
-                <div class="row">
-                    <span>Click any of the index to learn more about each volcanic eruption in history</span>
-                </div> 
-            </div>
-
             <div class="veiContainer col-lg-12 col-sm-12">
-            <!-- loop through the movies list and put the info on the page -->
             <!-- this is exactly like a forEach loop with plain JS -->
                 {{#each vIndex}}
                     <div class="user-panel">
@@ -20,11 +11,38 @@
                     </div>
                 {{/each}}
             </div>
-
-
-   
-        
-
-</section>
+        </section>
     </div>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="displayArea cl-sm-12 col-lg-12 mx-auto d-flex">
+                <h2>Plume Height</h2>
+            </div>
+
+            <div class="scale col-md-12 col-lg-12 mx-auto">
+                <div>
+                <ul class="ml-auto">
+                    <hr>
+                    <li>&gt;25KM</li>
+                    <hr>
+                    <li>15KM</li>
+                    <hr>
+                    <li>5KM</li>
+                    <hr>
+                    <li>1KM</li>
+                    <hr>
+                    <li>&lt;100M</li>
+                </ul>
+                </div>
+            </div>
+    </div>
+     <!-- this will be filled in on the client side when we render our AJAX data -->
+            <div class="lightbox container">
+                <div class="row">
+                    <span>Click any of the index to learn more about each volcanic eruption in history</span>
+                </div> 
+            </div>
+</div>
+

@@ -3,14 +3,15 @@
     position: relative;
     display: block;
     text-align: center !important;
+    overflow: visible;
 }
 
 .lightbox img {
     
-    width: 50%;
+    width: 60%;
     margin-top: -50px;
-    
 }
+
 
 .lightbox h5, p{
     text-align: left;
@@ -21,3 +22,9 @@
     margin: 0 auto;
     margin-left: 20px;
 }
+
+#v0{
+    margin-top:-200px;
+}
+
+
