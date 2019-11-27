@@ -43,6 +43,7 @@ h5 {
     font-family: 'Big Shoulders Text', sans-serif;
     font-size: 17px;
     margin-bottom: 5px;
+    color: orange;
 }
 
 ul li {
@@ -58,6 +59,7 @@ ul li {
 }
 
 hr { 
+    width: 80vw;
     display: block;
     margin-before: 0.5em;
     margin-after: 0.5em;
@@ -71,32 +73,11 @@ hr {
     margin-left: -15px;
 }
 
-.info-wrapper {
-    margin-left: -10px;
-}
-
-.info-wrapper {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.sources {
+.header {
     text-align: center;
-    margin-top: 50px;
-    background-color: #941d00;
-    height: 60px;
-    padding-top: 10px;
-    font-size: 10px;
 }
 
-.sources img {
-    margin-right: 5px;
-    margin-left: 5px;
-}
 
-.sources span {
-    padding-left: 20px;
-}
 
 svg {
     top: 0;

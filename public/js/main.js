@@ -9,7 +9,7 @@ const myVEI = (() => {
 
         let veiContainer = `
         
-            <img src="${vIndex.Image}" class="vImage" data-type="0">
+            <img src="${vIndex.Image}" class="vImage">
             <h5>Classification:</h5><p>${vIndex.Classification}</p>
            <h5>Volcano:</h5><p>${vIndex.Volcano}</p>
            <h5>Tephra:</h5><p>${vIndex.Tephra}</p>
