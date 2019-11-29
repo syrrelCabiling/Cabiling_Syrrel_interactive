@@ -1,0 +1,48 @@
+footer {
+    background: maroon;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+.sources {
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+footer span {
+    margin-right: 5px;
+}
+
+
+.wiki {
+    width: 10%;
+    margin: 5px 10px 5px 0px;
+}
+
+.osu {
+    width: 10%;
+    margin: 5px 10px 5px 0px;
+
+}
+
+.usgs {
+    width: 15%;
+    margin: 5px 10px 5px 0px;
+
+}
+
+.nyt {
+    width: 30%;
+    margin: 5px 10px 5px 0px;
+
+}

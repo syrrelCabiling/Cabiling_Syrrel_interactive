@@ -1,7 +1,7 @@
 @import 'modules/_buttons';
 @import 'modules/_lightbox';
-
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Josefin+Sans|Source+Sans+Pro&display=swap');
+@import 'modules/_footer';
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -87,5 +87,6 @@ svg {
 .scale {
     position: relative;
 }
+
 
 @import 'modules/_mediaqueries';

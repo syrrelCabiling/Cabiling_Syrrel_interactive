@@ -86,13 +86,21 @@
     .panel {
         text-align: center;
     }
+    footer {
+        bottom: -40px;
+        position: relative;
+        margin-top: 50px;
+        text-align: center;
+    }
 
 }
 
 @media (min-width: 414px) {
-    .panel {
+    #section1 {
         text-align: center;
+        align-items: center;
     }
+        
     button {
         width: 25%;
         background-color: #3f2508;
@@ -123,7 +131,10 @@
         position: absolute;
         
     }
-    .panel {
+    footer {
+        bottom: -110px;
+        position: relative;
+        margin-top: 50px;
         text-align: center;
     }
 }
@@ -220,6 +231,15 @@
     .panel {
         text-align: center;
     }
+    footer {
+        bottom: -220px;
+        position: relative;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    .wiki {
+        width: 15%;
+    }
     
  }
 
@@ -300,7 +320,28 @@
     .panel {
         text-align: center;
     }
+    footer {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .wiki {
+        width: 8%;
+    }
+    .osu {
+        width: 8%;
+
+    }
+    .usgs {
+        width: 8%;
+        
+    }
     
+  }
+
+  @media (min-width: 1024px) {
+    .veiContainer {
+        margin-right: 100px;
+    }
   }
 
   @media (min-width: 1300px) {

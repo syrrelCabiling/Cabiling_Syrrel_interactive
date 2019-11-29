@@ -59,6 +59,43 @@ button:focus {
 #v0 {
   margin-top: -200px; }
 
+footer {
+  background: maroon;
+  position: relative;
+  height: 10vh;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px; }
+
+footer a {
+  cursor: pointer; }
+
+.sources {
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center; }
+
+footer span {
+  margin-right: 5px; }
+
+.wiki {
+  width: 10%;
+  margin: 5px 10px 5px 0px; }
+
+.osu {
+  width: 10%;
+  margin: 5px 10px 5px 0px; }
+
+.usgs {
+  width: 15%;
+  margin: 5px 10px 5px 0px; }
+
+.nyt {
+  width: 30%;
+  margin: 5px 10px 5px 0px; }
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
@@ -201,10 +238,17 @@ svg {
     position: absolute; }
 
   .panel {
+    text-align: center; }
+
+  footer {
+    bottom: -40px;
+    position: relative;
+    margin-top: 50px;
     text-align: center; } }
 @media (min-width: 414px) {
-  .panel {
-    text-align: center; }
+  #section1 {
+    text-align: center;
+    align-items: center; }
 
   button {
     width: 25%;
@@ -231,7 +275,10 @@ svg {
   .index-link {
     position: absolute; }
 
-  .panel {
+  footer {
+    bottom: -110px;
+    position: relative;
+    margin-top: 50px;
     text-align: center; } }
 @media (min-width: 768px) {
   h1 {
@@ -312,7 +359,16 @@ svg {
     text-align: left; }
 
   .panel {
-    text-align: center; } }
+    text-align: center; }
+
+  footer {
+    bottom: -220px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0px; }
+
+  .wiki {
+    width: 15%; } }
 @media (min-width: 828px) {
   hr {
     width: 75vw; }
@@ -380,7 +436,23 @@ svg {
     font-size: 12px; }
 
   .panel {
-    text-align: center; } }
+    text-align: center; }
+
+  footer {
+    margin-top: 30px;
+    text-align: center; }
+
+  .wiki {
+    width: 8%; }
+
+  .osu {
+    width: 8%; }
+
+  .usgs {
+    width: 8%; } }
+@media (min-width: 1024px) {
+  .veiContainer {
+    margin-right: 100px; } }
 @media (min-width: 1300px) {
   .panel {
     text-align: center; }
