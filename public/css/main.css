@@ -147,15 +147,11 @@ ul li {
 hr {
   width: 80vw;
   display: block;
-  margin-before: 0.5em;
-  margin-after: 0.5em;
-  margin-start: auto;
-  margin-end: auto;
   margin-top: 0;
+  margin-bottom: 8px;
   overflow: hidden;
   border-width: 2px;
   background-color: #9b1b1b;
-  margin-bottom: 8px;
   margin-left: -15px; }
 
 .header {
@@ -167,6 +163,14 @@ svg {
 
 .scale {
   position: relative; }
+
+.vImage {
+  height: 80vh;
+  position: relative;
+  display: block; }
+
+.vImage img {
+  width: 50%; }
 
 @media (min-width: 320px) {
   button {
