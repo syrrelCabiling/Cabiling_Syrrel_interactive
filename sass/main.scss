@@ -93,5 +93,22 @@ svg {
     width: 55%;
 }
 
+.chart-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.chart-container img {
+    left: 20%;
+}
+
+.volcano-image {
+    position: absolute;
+    width: 200px;
+    top: 0;
+}
+
 
 @import 'modules/_mediaqueries';

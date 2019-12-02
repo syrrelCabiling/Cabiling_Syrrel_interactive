@@ -22,20 +22,29 @@ const myVEI = (() => {
 
     }
 
+
     function fetchVolcanoImg(vIndex) {
-        let volcanoImg = document.querySelector('.vImage'),
-            targetvImg = volcanoDiv.querySelector('img');
+        let volcanoImg = document.querySelector('.volcano-image');
 
-        let volImg = `
-            <img src="${vIndex.Image}">
-            `;
-    console.log(volImg);
+        volcanoImg.src = vIndex.Image;
+  // volcanoImg.style.top = `${(260 - (40.3 * vIndex.NumberIndex)) / 2}px`;
+       volcanoImg.style.top = `${(150 - (20.3 * vIndex.NumberIndex))}px`;
+}
 
-    volcanoImg.innerHTML = volImg;
-    targetvImg.src = vIndex.Image;
-    
 
-    }
+    // PLS IGNORE*****for future references ONLY*****
+    //function fetchVolcanoImg(vIndex) {
+    //     let volcanoImg = document.querySelector('.vImage'),
+    //         targetvImg = volcanoDiv.querySelector('img');
+
+    //     let volImg = `
+    //         <img src="${vIndex.Image}">
+    //         `;
+    // console.log(volImg);
+
+    // volcanoImg.innerHTML = volImg;
+    // targetvImg.src = vIndex.Image;
+    // }
 
     function volcanoData(event) {
         event.preventDefault(); //kill default tag in behaviour (dont navigate anywhere)

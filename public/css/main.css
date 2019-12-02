@@ -38,7 +38,6 @@ button:focus {
   border: 2px solid #ffffff; }
 
 .lightbox {
-  top: 0;
   position: relative;
   display: block;
   text-align: center !important;
@@ -168,6 +167,20 @@ svg {
 
 .vImage img {
   width: 55%; }
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 80px; }
+
+.chart-container img {
+  left: 20%; }
+
+.volcano-image {
+  position: absolute;
+  width: 200px;
+  top: 0; }
 
 @media (min-width: 320px) {
   button {
@@ -342,6 +355,15 @@ svg {
     text-align: center;
     align-content: center; }
 
+  .chart-container img {
+    left: 25%;
+    width: 50%; }
+
+  .volcano-image {
+    position: absolute;
+    width: 200px;
+    top: 0; }
+
   .index-link {
     position: absolute;
     text-align: center; }
@@ -462,12 +484,24 @@ svg {
   .veiContainer {
     margin-right: 100px; }
 
+  hr {
+    width: 80vw; }
+
   .vImage {
     margin-bottom: 30px;
     height: 60%; }
 
   .lightbox {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  .chart-container img {
+    left: 25%;
+    width: 40%; }
+
+  .volcano-image {
+    position: absolute;
+    width: 200px;
+    top: 0; } }
 @media (min-width: 1300px) {
   .panel {
     text-align: center; }
