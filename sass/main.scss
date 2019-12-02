@@ -82,14 +82,15 @@ svg {
 }
 
 .vImage {
-    height: 80vh;
+    height: 30vh;
     //background: pink; //just testing to see if where this div is
     position: relative;
     display: block;
+    text-align: center;
 }
 
 .vImage img {
-    width: 50%;
+    width: 55%;
 }
 
 

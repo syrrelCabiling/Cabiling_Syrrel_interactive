@@ -36,10 +36,6 @@
         position: absolute;
         width: 10%;
     }
-    .lightbox img{
-        width: 70%;
-        margin-top: -85px;
-    }
 
 }
 
@@ -261,9 +257,6 @@
         color: #9b1b1b;
         margin-left: -15px;
     }
-    .scale {
-        margin-top: -40px;
-    }
     button {
         width: 23%;
         background-color: #3f2508;
@@ -298,10 +291,6 @@
         position: absolute;
 
     }
-     .lightbox img {
-         width: 40%;
-         margin-top: -150px;
-     }
      .lightbox span{
         text-align: center;
         margin: 0 auto;
@@ -329,10 +318,10 @@
         text-align: center;
     }
     .wiki {
-        width: 8%;
+        width: 7%;
     }
     .osu {
-        width: 8%;
+        width: 6%;
 
     }
     .usgs {
@@ -346,13 +335,19 @@
     .veiContainer {
         margin-right: 100px;
     }
+    .vImage {
+        margin-bottom: 30px;
+    }
+    .vImage {
+        height: 60%;
+    }
+    .lightbox {
+        margin-top: 40px;
+    }
   }
 
   @media (min-width: 1300px) {
       .panel {
-          text-align: center;
-      }
-      .lightbox {
           text-align: center;
       }
   }

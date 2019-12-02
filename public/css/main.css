@@ -38,15 +38,11 @@ button:focus {
   border: 2px solid #ffffff; }
 
 .lightbox {
-  margin-top: 10px;
+  top: 0;
   position: relative;
   display: block;
   text-align: center !important;
   overflow: visible; }
-
-.lightbox img {
-  width: 60%;
-  margin-top: -50px; }
 
 .lightbox h5, p {
   text-align: left; }
@@ -165,12 +161,13 @@ svg {
   position: relative; }
 
 .vImage {
-  height: 80vh;
+  height: 30vh;
   position: relative;
-  display: block; }
+  display: block;
+  text-align: center; }
 
 .vImage img {
-  width: 50%; }
+  width: 55%; }
 
 @media (min-width: 320px) {
   button {
@@ -202,11 +199,7 @@ svg {
 
   .index-link {
     position: absolute;
-    width: 10%; }
-
-  .lightbox img {
-    width: 70%;
-    margin-top: -85px; } }
+    width: 10%; } }
 @media (min-width: 375px) {
   .header span {
     margin-bottom: 20px; }
@@ -388,9 +381,6 @@ svg {
     color: #9b1b1b;
     margin-left: -15px; }
 
-  .scale {
-    margin-top: -40px; }
-
   button {
     width: 23%;
     background-color: #3f2508;
@@ -420,10 +410,6 @@ svg {
   .index-link {
     position: absolute; }
 
-  .lightbox img {
-    width: 40%;
-    margin-top: -150px; }
-
   .lightbox span {
     text-align: center;
     margin: 0 auto;
@@ -451,21 +437,27 @@ svg {
     text-align: center; }
 
   .wiki {
-    width: 8%; }
+    width: 7%; }
 
   .osu {
-    width: 8%; }
+    width: 6%; }
 
   .usgs {
     width: 8%; } }
 @media (min-width: 1024px) {
   .veiContainer {
-    margin-right: 100px; } }
-@media (min-width: 1300px) {
-  .panel {
-    text-align: center; }
+    margin-right: 100px; }
+
+  .vImage {
+    margin-bottom: 30px; }
+
+  .vImage {
+    height: 60%; }
 
   .lightbox {
+    margin-top: 40px; } }
+@media (min-width: 1300px) {
+  .panel {
     text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
