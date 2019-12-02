@@ -241,10 +241,17 @@
 
  @media (min-width: 828px) {
      hr {
-         width: 75vw;
+         width: 60vw;
      }
      .panel {
         text-align: center;
+    }
+    .vImage {
+        margin-bottom: 30px;
+        height: 70%;
+    }
+    .lightbox {
+        margin-top: 40px;
     }
  }
 
@@ -301,13 +308,20 @@
         text-align: left;
     }
     hr {
-        width: 80vw;
+        width: 70vw;
     }
     ul li {
         font-size: 12px;
     }
     .panel {
         text-align: center;
+    }
+    .vImage {
+        margin-bottom: 30px;
+        height: 70%;
+    }
+    .lightbox {
+        margin-top: 40px;
     }
     footer {
         margin-top: 30px;
@@ -337,8 +351,6 @@
     }
     .vImage {
         margin-bottom: 30px;
-    }
-    .vImage {
         height: 60%;
     }
     .lightbox {
@@ -350,4 +362,11 @@
       .panel {
           text-align: center;
       }
+      .vImage {
+        margin-bottom: 30px;
+        height: 60%;
+    }
+    .lightbox {
+        margin-top: 40px;
+    }
   }
