@@ -28,7 +28,7 @@ const myVEI = (() => {
 
         volcanoImg.src = vIndex.Image;
   // volcanoImg.style.top = `${(260 - (40.3 * vIndex.NumberIndex)) / 2}px`;
-       volcanoImg.style.top = `${(150 - (20.3 * vIndex.NumberIndex))}px`;
+       volcanoImg.style.top = `${(180 - (24.5 * vIndex.NumberIndex))}px`;
 }
 
 

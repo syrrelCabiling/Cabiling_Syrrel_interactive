@@ -127,6 +127,16 @@
         position: absolute;
         
     }
+    .chart-container img {
+        left: 30%;
+        width: 50%;
+    }
+    
+    .volcano-image {
+        position: absolute;
+        width: 200px;
+        top: 0;
+    }
     footer {
         bottom: -110px;
         position: relative;
@@ -161,7 +171,7 @@
         font-size: 20px;
     }
     hr { 
-        width: 60vh;
+        width: 90vh;
         display: block;
         margin-before: 0.5em;
         margin-after: 0.5em;
@@ -356,6 +366,11 @@
   }
 
   @media (min-width: 1024px) {
+    h2 {
+        font-size: 30px;
+        transform-origin: left;
+        transform: translate(30%, 250px) rotate(270deg) ;
+    }
     .veiContainer {
         margin-right: 100px;
     }
@@ -370,7 +385,7 @@
         margin-top: 40px;
     }
     .chart-container img {
-        left: 25%;
+        left: 30%;
         width: 40%;
     }
     
@@ -392,6 +407,9 @@
     }
     .lightbox {
         margin-top: 40px;
+    }
+    hr {
+        width: 75vw;
     }
    
   }

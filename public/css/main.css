@@ -55,6 +55,7 @@ button:focus {
   margin-top: -200px; }
 
 footer {
+  text-align: center;
   background: maroon;
   position: relative;
   height: 10vh;
@@ -164,9 +165,6 @@ svg {
   position: relative;
   display: block;
   text-align: center; }
-
-.vImage img {
-  width: 55%; }
 
 .chart-container {
   position: relative;
@@ -285,6 +283,15 @@ svg {
   .index-link {
     position: absolute; }
 
+  .chart-container img {
+    left: 30%;
+    width: 50%; }
+
+  .volcano-image {
+    position: absolute;
+    width: 200px;
+    top: 0; }
+
   footer {
     bottom: -110px;
     position: relative;
@@ -313,7 +320,7 @@ svg {
     font-size: 20px; }
 
   hr {
-    width: 60vh;
+    width: 90vh;
     display: block;
     margin-before: 0.5em;
     margin-after: 0.5em;
@@ -481,6 +488,11 @@ svg {
   .usgs {
     width: 8%; } }
 @media (min-width: 1024px) {
+  h2 {
+    font-size: 30px;
+    transform-origin: left;
+    transform: translate(30%, 250px) rotate(270deg); }
+
   .veiContainer {
     margin-right: 100px; }
 
@@ -495,7 +507,7 @@ svg {
     margin-top: 40px; }
 
   .chart-container img {
-    left: 25%;
+    left: 30%;
     width: 40%; }
 
   .volcano-image {
@@ -511,6 +523,9 @@ svg {
     height: 60%; }
 
   .lightbox {
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  hr {
+    width: 75vw; } }
 
 /*# sourceMappingURL=main.css.map */
